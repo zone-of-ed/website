@@ -1,5 +1,6 @@
 export default function navigation() {
     return <nav className="navbar">
+
         <div className="navbar-logo">
             <a href=""><img src="/images/brand-logo.png" alt="Brand Logo"/></a>
         </div>
@@ -11,5 +12,9 @@ export default function navigation() {
             <li><a href="/public">Interview Questions</a></li>
             <li><a href="/public">Login</a></li>
         </ul>
+        <div className="community-button">
+            <img src="/images/whatsappLogo.png" alt="WhatsApp Icon"/>
+            <span>Community</span>
+        </div>
     </nav>
 }

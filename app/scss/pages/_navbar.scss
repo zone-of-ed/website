@@ -6,25 +6,49 @@
   padding: 0 64px;
   background-color: #FFF8F3;
   box-shadow: 0 2px 4px 0 rgba(black, 0.2);
-}
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  .community-button{
+    font-family: $museo;
+    font-size: 16px;
+    position: absolute;
+    background-color: inherit;
+    bottom: -46px;
+    right: 150px;
+    padding: 8px 16px;
 
-.navbar-links {
-  display: flex;
-  font-size: 16px;
-  list-style: none;
-  font-family: $museo;
-  font-weight: 500;
-
-  a {
-    text-decoration: none;
-    color: $color-black;
-    padding: 24px 16px;
-
+    border-radius: 0 0 16px 16px  ;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 2px 4px 0 rgba(black, 0.2);
+    img{
+      width: 32px;
+      height: 32px;
+      filter: drop-shadow(0px 4px 4px rgba($color-black, 0.2));
+    }
   }
 
-  a:hover {
-    color: $color-white;
-    padding: 24px 16px;
-    background-color: $color-primary;
+  .navbar-links {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    font-family: $museo;
+    font-weight: 500;
+
+    a {
+      text-decoration: none;
+      color: $color-black;
+      padding: 24px 16px;
+
+    }
+
+    a:hover {
+      color: $color-white;
+      padding: 24px 16px;
+      background-color: $color-primary;
+    }
   }
 }
+

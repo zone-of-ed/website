@@ -3,58 +3,68 @@
   color: $color-white;
   padding: 64px;
   border-radius: 24px;
-  max-width: 550px;
+  max-width: 540px;
   position: relative;
   font-family: $damsans;
+  .content-section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 
+
+  }
 
   .icon-section {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     background-color: $color-primary;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 20px;
+    top: 20px;
     transform: translate(-50%, -50%);
 
     img {
       width: 60%;
+      filter: drop-shadow(0px 4px 4px rgba($color-black, 0.2));
     }
   }
 
   h4 {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     line-height: 1;
+    padding-bottom: 8px;
+
   }
 
   h4::after {
     content: "";
-    display: inline-block;
+    display: block;
     width: 40%;
     border-bottom: 4px solid $color-primary;
     align-items: center;
-    margin-bottom: 8px;
+    margin: auto;
+    padding-top: 10px;
   }
 
   p, ul {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
 
   }
 
   .details {
     display: flex;
     gap: 24px;
-    margin: 16px 0;
+
   }
 
   .details p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
   }
 
@@ -62,28 +72,39 @@
     display: flex;
     flex: 1;
 
-    p {
-      margin-left: 16px;
+    img{
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
     }
   }
 
   .what-you-learn-list {
-    margin-bottom: 24px;
-
     li {
       list-style: none;
     }
 
     li:not(:last-child) {
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
-  }
 
-  .pre-requist-list {
-    margin-bottom: 24px;
-  }
 
-  .join-btn {
+    li{
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+  }
+.pre-request-list{
+  padding-left: 12px;
+}
+
+.join-btn {
     font-family: $museo;
     display: flex;
     align-items: center;

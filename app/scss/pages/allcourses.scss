@@ -10,6 +10,7 @@
     display: flex;
     gap: 24px;
     align-items: center;
+    justify-content: center;
   }
 
   .all-courses-line {
@@ -56,10 +57,11 @@
     color: $color-white;
     font-family: $museo;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     padding: 32px;
     display: flex;
     align-items: center;
+
     gap: 8px;
     border-radius: 24px;
 

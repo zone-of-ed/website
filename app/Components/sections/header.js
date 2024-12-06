@@ -1,6 +1,7 @@
 export default function header() {
     return <header className="header">
-        
+
+
         <div className="header__text-box">
 
             <h1>Learn To <span>Code</span></h1>
