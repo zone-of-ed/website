@@ -1,18 +1,17 @@
-import './scss/main.scss'
-import { MuseoModerno } from 'next/font/google'
- 
-const roboto = MuseoModerno({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-roboto',
-  
-})
+import Header from "./Components/sections/header";
+import Navigation from "./Components/sections/navigation";
+import OurValues from "./Components/sections/ourValues";
+import WhyUs from "./Components/sections/whyUs";
+import AllCourses from "@/app/Components/sections/allCourses";
+
 export default function Home() {
- ;
-  return (
-    <div >
-      <h1 className={roboto.className}>Hello</h1>
-      <h3>Hello</h3>
-    </div>
-  );
+    return <>
+        <Navigation/>
+        <Header/>
+        <main>
+            <OurValues/>
+            <WhyUs/>
+            <AllCourses/>
+        </main>
+    </>
 }

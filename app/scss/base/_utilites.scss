@@ -1,0 +1,44 @@
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.margin-top-1 {
+  margin-top: 1rem;
+}
+
+.margin-top-2 {
+  margin-top: 2rem;
+}
+
+.margin-top-8 {
+  margin-top: 8rem;
+}
+
+.margin-top-16 {
+  margin-top: 16rem;
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-heading {
+  font-size: 60px;
+  font-family: $museo;
+  font-weight: 300;
+
+  span {
+    color: $color-primary;
+  }
+}
+
+.section-content {
+  font-size: 16px;
+  font-family: $poppins;
+  font-weight: 300;
+}

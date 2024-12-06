@@ -1,0 +1,96 @@
+.course-overview {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 64px;
+  border-radius: 24px;
+  max-width: 550px;
+  position: relative;
+  font-family: $damsans;
+
+
+  .icon-section {
+    width: 90px;
+    height: 90px;
+    background-color: $color-primary;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+
+    img {
+      width: 60%;
+    }
+  }
+
+  h4 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1;
+  }
+
+  h4::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    border-bottom: 4px solid $color-primary;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  p, ul {
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+
+  .details {
+    display: flex;
+    gap: 24px;
+    margin: 16px 0;
+  }
+
+  .details p {
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .detail-item {
+    display: flex;
+    flex: 1;
+
+    p {
+      margin-left: 16px;
+    }
+  }
+
+  .what-you-learn-list {
+    margin-bottom: 24px;
+
+    li {
+      list-style: none;
+    }
+
+    li:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .pre-requist-list {
+    margin-bottom: 24px;
+  }
+
+  .join-btn {
+    font-family: $museo;
+    display: flex;
+    align-items: center;
+    padding: 12px 32px;
+    border-radius: 100px;
+    font-size: 16px;
+    margin: auto;
+
+  }
+}
