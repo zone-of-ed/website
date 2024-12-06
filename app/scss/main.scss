@@ -1,5 +1,18 @@
-@import "base/base";
+// abstracts
+@import "abstracts/variables";
 
-body {
-  font-family: var(--font-roboto), sans-serif;
-}
+//base
+@import "base/base";
+@import "base/utilites";
+
+// components
+@import "components/courseoverview";
+
+// pages
+@import "pages/header";
+@import "pages/navbar";
+@import "pages/ourvalues";
+@import "pages/whyus";
+@import "pages/allcourses";
+
+

@@ -1,7 +1,24 @@
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-museo: 'MuseoModerno', cursive;
+  --font-dmsans: 'DM Sans', sans-serif;
+}
+
+
 // COLORS
-$color-primary: #55c57a;
+$color-primary: #1DB954;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
-
 $color-white: #fff;
 $color-black: #000;
+$color-nugget-gold: #B9951D;
+$color-bleached-silk: #F3F3F3;
+$color-brilliant-white: #E5F1FF;
+$color-red-hot: #D9002F;
+
+
+// FONTS
+$poppins: var(--font-poppins);
+$museo: var(--font-museo);
+$damsans: var(--font-dmsans);
+
