@@ -1,6 +1,6 @@
-export default function courseItem() {
+export default function courseItem({courseImg, courseTitle}) {
     return <button className="course-item">
-        <img src="/images/python.png" alt="course-logo"/>
-        Python fullstack development
+        <img src={courseImg} alt="course-logo"/>
+        {courseTitle}
     </button>
 }

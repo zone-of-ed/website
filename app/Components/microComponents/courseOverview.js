@@ -1,7 +1,11 @@
 export default function courseOverview() {
     return <div className="course-overview">
+
         <div className="icon-section">
             <img src="/images/python.png" alt="Python Logo"/>
+        </div>
+        <div className="icon-planleaf">
+            <img src="/images/plantleaf.png" alt="Plant leaf"/>
         </div>
         <div className="content-section">
             <h4>COURSE OVERVIEW</h4>
@@ -35,7 +39,6 @@ export default function courseOverview() {
                 <li>A computer (Windows, Mac, or Linux) with an internet connection</li>
                 <li>A computer (Windows, Mac, or Linux) with an internet connection</li>
                 <li>A computer (Windows, Mac, or Linux) with an internet connection</li>
-
             </ul>
             <button className="join-btn ">
                 <img src="/images/whatsappLogo.png" alt="WhatsApp Icon"/> Join in Community

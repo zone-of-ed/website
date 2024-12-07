@@ -1,4 +1,5 @@
 .all-courses {
+
   .all-courses-heading-container {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -11,6 +12,7 @@
     gap: 24px;
     align-items: center;
     justify-content: center;
+    margin-top: -80px;
   }
 
   .all-courses-line {
@@ -53,7 +55,6 @@
 
   .course-item {
     background-color: $color-black;
-    width: 470px;
     color: $color-white;
     font-family: $museo;
     font-weight: 500;
@@ -61,7 +62,6 @@
     padding: 32px;
     display: flex;
     align-items: center;
-
     gap: 8px;
     border-radius: 24px;
 
