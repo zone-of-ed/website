@@ -1,7 +1,7 @@
 import WhyUsCard from "@/app/Components/microComponents/whyUsCard";
 import BgLine from "@/app/Components/microComponents/bgLine";
 
-export default function whyUs() {
+export default function WhyUs() {
     return <section className="why-us ">
 
         <div className="why-us-heading-container max-width">

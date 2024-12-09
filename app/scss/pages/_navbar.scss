@@ -4,11 +4,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 64px;
-  background-color: #FFF8F3;
+  background-color: $color-sugar-milk;
   box-shadow: 0 2px 4px 0 rgba(black, 0.2);
   position: relative;
   width: 100%;
-  .community-button{
+
+  .community-button {
     font-family: $museo;
     font-size: 16px;
     position: absolute;
@@ -17,12 +18,13 @@
     right: 150px;
     padding: 12px 16px;
     z-index: -1;
-    border-radius: 0 0 16px 16px  ;
+    border-radius: 0 0 16px 16px;
     display: flex;
     align-items: center;
     gap: 4px;
     box-shadow: 0 2px 4px 0 rgba(black, 0.2);
-    img{
+
+    img {
       width: 32px;
       height: 32px;
       filter: drop-shadow(0px 4px 4px rgba($color-black, 0.2));

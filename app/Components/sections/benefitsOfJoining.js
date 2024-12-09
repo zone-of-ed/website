@@ -1,6 +1,6 @@
 import ContentCard from "@/app/Components/microComponents/contentCard";
 
-export default function benefitsOfJoining() {
+export default function BenefitsOfJoining() {
     return <section className="benefits-of-joining">
         <div className="heading-container text-align-center max-width">
             <h2>BENEFITS OF JOINING </h2>
