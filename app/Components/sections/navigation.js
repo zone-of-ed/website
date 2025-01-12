@@ -1,32 +1,38 @@
-import Link from "next/link";
+'use client';
+import Link from 'next/link';
 
-export default function Navigation({canShowCommunity = true}) {
+import { usePathname } from 'next/navigation';
 
-    return <nav className="navbar">
-        <div className="navbar-logo">
-            <a href=""><img src="/images/brand-logo.png" alt="Brand Logo"/></a>
-        </div>
-        <ul className="navbar-links">
-            <li>
-                <Link href="/">Home</Link></li>
-            <li>
-                <Link href="/">About Us</Link>
-            </li>
-            <li>
-                <Link href="/code-editor">Code Editor</Link></li>
-            <li>
-                <Link href="/">Quiz</Link></li>
-            <li>
-                <Link href="/">Interview Questions</Link></li>
-            <li>
-                <Link href="/">Login</Link></li>
-        </ul>
-        {canShowCommunity && <div className="community-button">
+export default function Navigation({ canShowCommunity = true }) {
+  const pathname = usePathname();
+  console.log(pathname);
+  return <nav className="navbar">
+    <div className="navbar-logo">
+      <a href="">
+        <img src="/images/brand-logo.png" alt="Brand Logo" />
+      </a>
+    </div>
+    <ul className="navbar-links">
+      <li>
+        <Link href="/" className={pathname === '/' ? 'active' : ''}>Home</Link></li>
+      <li>
+        <Link href="/">About Us</Link>
+      </li>
+      <li>
+        <Link href="/code-editor" className={pathname === '/code-editor' ? 'active' : ''}>Code Editor</Link></li>
+      <li>
+        <Link href="/quiz" className={pathname === '/quiz' ? 'active' : ''}>Quiz</Link></li>
+      <li>
+        <Link href="/interview-questions" className={pathname === '/interview-questions' ? 'active' : ''}>Interview
+          Questions</Link></li>
+      <li>
+        <Link href="/">Login</Link></li>
+    </ul>
+    {canShowCommunity && <div className="community-button">
+      <img src="/images/whatsappLogo.png" alt="WhatsApp Icon" />
+      <span>Community</span>
+    </div>}
 
-            <img src="/images/whatsappLogo.png" alt="WhatsApp Icon"/>
-            <span>Community</span>
-        </div>}
-
-    </nav>
+  </nav>;
 }
 

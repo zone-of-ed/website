@@ -50,3 +50,12 @@
 .background-white {
   background-color: $color-white !important;
 }
+
+.background-primary-color {
+  background-color: $color-primary !important;
+}
+
+.active {
+  background-color: $color-primary !important;
+  color: $color-white !important;
+}
