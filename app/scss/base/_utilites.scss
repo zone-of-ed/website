@@ -6,6 +6,11 @@
   text-align: right;
 }
 
+.margin-auto {
+  display: block;
+  margin: auto;
+}
+
 .margin-top-1 {
   margin-top: 1rem;
 }
@@ -34,6 +39,7 @@
 
   span {
     color: $color-primary;
+    padding-left: 8px;
   }
 }
 
@@ -58,4 +64,16 @@
 .active {
   background-color: $color-primary !important;
   color: $color-white !important;
+}
+
+@media (max-width: 480px) {
+  .max-width {
+    max-width: 480px;
+    margin: auto;
+  }
+  .section-heading {
+    font-size: 28px;
+  }
+
+
 }
