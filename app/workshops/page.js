@@ -6,7 +6,6 @@ const Page = () => {
     <>
       <Navigation />
       <main className="work-shops max-width">
-
         <section className="work-shops-master">
           <h1 className="section-heading text-align-center">Master sql <span>in 7 days</span>
           </h1>

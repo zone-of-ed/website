@@ -19,7 +19,7 @@ export default function Navigation({ canShowCommunity = true }) {
       {/*  <Link href="/">About Us</Link>*/}
       {/*</li>*/}
       {/*<li>*/}
-      {/*  <Link href="/code-editor" className={pathname === '/code-editor' ? 'active' : ''}>Code Editor</Link></li>*/}
+      {/*  <Link href="/practise-problems" className={pathname === '/practise-problems' ? 'active' : ''}>Code Editor</Link></li>*/}
       {/*<li>*/}
       {/*  <Link href="/quiz" className={pathname === '/quiz' ? 'active' : ''}>Quiz</Link></li>*/}
       {/*<li>*/}
@@ -31,7 +31,6 @@ export default function Navigation({ canShowCommunity = true }) {
         <Link href="/workshops" className={pathname === '/workshops' ? 'active' : ''}>Workshops</Link></li>
       <li>
         <Link href="/">Login</Link></li>
-
 
     </ul>
     {canShowCommunity && <div className="community-button">

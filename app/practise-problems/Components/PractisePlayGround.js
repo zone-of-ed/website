@@ -1,13 +1,12 @@
 'use client';
 import dynamic from 'next/dynamic';
-import CodePractiseLeftScreen from '@/app/code-editor/Components/microComponents/CodePractiseLeftScreen';
-import OutputConsole from '@/app/code-editor/Components/OutputConsole';
-import CodeEditor from '@/app/code-editor/Components/microComponents/CodeEditor';
-
+import CodePractiseLeftScreen from '@/app/practise-problems/Components/microComponents/CodePractiseLeftScreen';
+import OutputConsole from '@/app/practise-problems/Components/OutputConsole';
+import CodeEditor from '@/app/practise-problems/Components/microComponents/CodeEditor';
 
 const SplitPane = dynamic(() => import('react-split-pane'), { ssr: false });
 
-export default function CodePractise() {
+export default function PractisePlayGround() {
   const resizerStyle = {
     background: `$color-mesa-beige`,
     opacity: 1,

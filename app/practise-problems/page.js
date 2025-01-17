@@ -1,9 +1,9 @@
 import Navigation from '@/app/Components/sections/navigation';
-import CodePractise from '@/app/code-editor/Components/microComponents/CodePractise';
+import PractiseTopicCard from '@/app/practise-problems/Components/PractiseTopicCard';
 
 export default function Home() {
   return <>
     <Navigation canShowCommunity={false} />
-    <CodePractise />
+    <PractiseTopicCard />
   </>;
 }
