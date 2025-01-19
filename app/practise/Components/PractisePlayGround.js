@@ -1,8 +1,8 @@
 'use client';
 import dynamic from 'next/dynamic';
-import CodePractiseLeftScreen from '@/app/practise-problems/Components/microComponents/CodePractiseLeftScreen';
-import OutputConsole from '@/app/practise-problems/Components/OutputConsole';
-import CodeEditor from '@/app/practise-problems/Components/microComponents/CodeEditor';
+import CodePractiseLeftScreen from '@/app/practise/Components/microComponents/CodePractiseLeftScreen';
+import OutputConsole from '@/app/practise/Components/OutputConsole';
+import CodeEditor from '@/app/practise/Components/microComponents/CodeEditor';
 
 const SplitPane = dynamic(() => import('react-split-pane'), { ssr: false });
 

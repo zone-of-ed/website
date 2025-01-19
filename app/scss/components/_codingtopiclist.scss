@@ -1,0 +1,41 @@
+.coding-topics-list {
+  width: 100%;
+  background-color: #d7d8da;
+  border-collapse: collapse;
+
+  tbody {
+    background-color: #e6e7e9;
+  }
+
+  th {
+    text-align: left;
+    padding: 10px;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  .solve-it-btn {
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-primary;
+
+      a {
+        color: $color-white;
+      }
+    }
+
+
+    a {
+      text-decoration: none;
+      color: $color-black;
+    }
+
+
+  }
+
+
+}

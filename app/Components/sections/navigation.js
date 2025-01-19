@@ -19,7 +19,7 @@ export default function Navigation({ canShowCommunity = true }) {
       {/*  <Link href="/">About Us</Link>*/}
       {/*</li>*/}
       {/*<li>*/}
-      {/*  <Link href="/practise-problems" className={pathname === '/practise-problems' ? 'active' : ''}>Code Editor</Link></li>*/}
+      {/*  <Link href="/practise" className={pathname === '/practise' ? 'active' : ''}>Code Editor</Link></li>*/}
       {/*<li>*/}
       {/*  <Link href="/quiz" className={pathname === '/quiz' ? 'active' : ''}>Quiz</Link></li>*/}
       {/*<li>*/}

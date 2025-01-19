@@ -9,6 +9,9 @@
 @import "components/courseoverview";
 @import "components/codeeditor";
 @import "components/codepractiseleftscreen";
+@import "components/flex-container";
+@import "components/accordion";
+@import "components/codingtopiclist";
 
 // pages
 @import "pages/header";
@@ -21,6 +24,5 @@
 @import "pages/interviewquestion";
 @import "pages/quiz";
 @import "pages/workShops";
-// pages/coding
-@import "pages/coding/codepractise";
+@import "pages/practiseproblems";
 

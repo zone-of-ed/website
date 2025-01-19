@@ -52,3 +52,29 @@
   transform: translateY(-50%) rotate(90deg) scale(0.6);
 
 }
+
+.practise-topic-card {
+  width: 264px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 32px 16px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+  color: $color-black;
+  font-family: $damsans;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px 0;
+  }
+
+  p {
+    font-size: 14px;
+
+  }
+
+  hr {
+    margin: 16px 0;
+  }
+}
