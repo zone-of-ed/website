@@ -2,27 +2,28 @@ import React from 'react';
 import Navigation from '@/app/Components/sections/navigation';
 
 const Page = () => {
+
+
   return (
     <>
       <Navigation />
       <main className="work-shops max-width">
         <section className="work-shops-master">
-          <h1 className="section-heading text-align-center">Master sql <span>in 7 days</span>
+          <h1 className="section-heading text-align-center">Master sql <span>in 5 days</span>
           </h1>
           <div className="work-shops-master-container">
             <img src="/images/sql-img.png" />
             <div className="work-shops-master-content-container">
               <div className="work-shops-master-content">
-                <p>7days classes With Case Study</p>
-                <p>Mega Webinar on 20/01/2025</p>
+                <p>5 Days Workshop With Case Study</p>
                 <p>Get Certificate Of Completion</p>
                 <p>No prior knowledge of Sql required</p>
               </div>
-              <button className="btn">Become Sql master at 99₹</button>
+              <a className="btn" href="https://rzp.io/rzp/Y1T0Ab2C">Become Sql master at 99₹</a>
             </div>
 
           </div>
-          <p>Join our 7-Day SQL Bootcamp for just <span>₹99</span> and gain hands-on experience, solve real-world
+          <p>Join our 5-Day SQL Bootcamp for just <span>₹99</span> and gain hands-on experience, solve real-world
             problems,
             and earn a
             certificate to boost your career.</p>
@@ -35,10 +36,11 @@ const Page = () => {
           <div className="join-now-container">
             <p>Join in</p>
             <img className="logo-img" src="/images/brand-logo.png" />
-            <button>
-              <img src="/images/whatsappLogo.png" />
-              Community
-            </button>
+            <a className="btn" href="https://rzp.io/rzp/Y1T0Ab2C">
+              {/*<img src="/images/whatsappLogo.png" />*/}
+              {/*Community*/}
+              Become Sql master at 99₹
+            </a>
           </div>
         </section>
 
@@ -77,7 +79,7 @@ const Page = () => {
               </div>
               <div className="work-shops-why-this-bootcamp-content-panel">
                 <h4>Practical and Compact</h4>
-                <p>Learn and apply SQL within a week</p>
+                <p>Learn and apply SQL within a 5 days</p>
               </div>
               <div className="work-shops-why-this-bootcamp-content-panel">
                 <h4>Get Certificate</h4>
@@ -98,30 +100,66 @@ const Page = () => {
               <div className="work-shops-what-to-learn-days-panel">
                 <h3>Day-1</h3>
                 <div className="container">
-                  <h4>Introduction to SQL</h4>
+                  <h4>Introduction to SQL & Databases</h4>
                   <ul>
-                    <li>What is SQL and why it’s important?</li>
-                    <li>Understanding databases and how SQL interacts with them.</li>
-                    <li>Setting up your first database using MySQL.</li>
+                    <li>What is Data, Database and Types of Databases</li>
+                    <li>What is SQL? Why is it important?</li>
+                    <li>Introduction to Tables, Rows, Columns</li>
+                    <li><strong>Hands-on:</strong> Creating a simple database & table</li>
                   </ul>
                 </div>
               </div>
               <div className="work-shops-what-to-learn-days-panel">
                 <h3>Day-2</h3>
-                <div className="container"><h4>SQL Core Concepts – Querying Data</h4>
+                <div className="container"><h4>Data Manipulation</h4>
                   <ul>
-                    <li>Writing SELECT statements to fetch data.</li>
-                    <li>Filtering data with WHERE clauses.</li>
-                    <li>Sorting and limiting results for precision.</li>
+                    <li>Understanding DML (Data Manipulation Language)</li>
+                    <li>INSERT, SELECT, UPDATE & DELETE
+                    </li>
+                    <li><strong>Hands-on:</strong> Insert sample data & retrieve it</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="work-shops-what-to-learn-days-panel">
+                <h3>Day-3</h3>
+                <div className="container"><h4>Filtering & Sorting Data</h4>
+                  <ul>
+                    <li>WHERE clause, ORDER BY and LIMIT</li>
+                    <li>AND, OR, BETWEEN, IN, LIKE
+                    </li>
+                    <li><strong>Hands-on:</strong> Write queries using these clauses</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="work-shops-what-to-learn-days-panel">
+                <h3>Day-4</h3>
+                <div className="container"><h4>Relationships & Joins</h4>
+                  <ul>
+                    <li>Primary Key, Foreign Key & Relationships</li>
+                    <li>INNER JOIN, LEFT JOIN & RIGHT JOIN
+                    </li>
+                    <li>GROUP BY & HAVING</li>
+                    <li><strong>Hands-on:</strong> Creating table joins</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="work-shops-what-to-learn-days-panel">
+                <h3>Day-5</h3>
+                <div className="container"><h4>Functions & Final Project</h4>
+                  <ul>
+                    <li>SQL Aggregate Functions (COUNT, SUM, AVG, MAX, MIN)</li>
+                    <li>String & Date Functions
+                    </li>
+                    <li><strong>Case Study:</strong> HR/Employee Management</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          <p>Join our 7-Day SQL Bootcamp for just <span>₹99</span> and gain hands-on experience, solve real-world
+          <p>Join our 5-Day SQL Bootcamp for just <span>₹99</span> and gain hands-on experience, solve real-world
             problems, and earn a
             certificate to boost your career.</p>
-          <button className="btn margin-auto">ENROLL NOW</button>
+          <a className="btn" href="https://rzp.io/rzp/Y1T0Ab2C"> ENROLL NOW</a>
         </section>
       </main>
     </>

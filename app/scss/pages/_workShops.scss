@@ -322,6 +322,7 @@
         gap: 8px;
         flex-wrap: wrap;
         margin-top: 12px;
+        padding: 0 16px;
 
         p {
           font-size: 16px;
@@ -458,7 +459,9 @@
       padding: 8px;
       width: 100%;
       font-size: 18px;
-
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
     }
   }
 }
