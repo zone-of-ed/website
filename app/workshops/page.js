@@ -24,10 +24,7 @@ const Page = () => {
             </div>
 
           </div>
-          <p>Join our 5-Day SQL Bootcamp for just <span><strong>₹99</strong></span> and gain hands-on experience, solve real-world
-            problems,
-            and earn a
-            certificate to boost your career.</p>
+          <p>SQL is a crucial skill for working with data and turning it into valuable insights. This <strong>5-Day SQL Bootcamp</strong> will give you the practical knowledge and experience to succeed in a data-driven world.</p>
 
         </section>
 
