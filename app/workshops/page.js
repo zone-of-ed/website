@@ -16,14 +16,15 @@ const Page = () => {
             <div className="work-shops-master-content-container">
               <div className="work-shops-master-content">
                 <p>5 Days Workshop With Case Study</p>
+                <p>Mega Workshop On 17/02/2025</p>
                 <p>Get Certificate Of Completion</p>
                 <p>No prior knowledge of Sql required</p>
               </div>
-              <a className="btn" href="https://rzp.io/rzp/Y1T0Ab2C">Become Sql master at 99₹</a>
+              <a className="btn" href="https://rzp.io/rzp/Y1T0Ab2C">Become Sql master at <strong>99₹</strong></a>
             </div>
 
           </div>
-          <p>Join our 5-Day SQL Bootcamp for just <span>₹99</span> and gain hands-on experience, solve real-world
+          <p>Join our 5-Day SQL Bootcamp for just <span><strong>₹99</strong></span> and gain hands-on experience, solve real-world
             problems,
             and earn a
             certificate to boost your career.</p>
@@ -39,7 +40,7 @@ const Page = () => {
             <a className="btn" href="https://rzp.io/rzp/Y1T0Ab2C">
               {/*<img src="/images/whatsappLogo.png" />*/}
               {/*Community*/}
-              Become Sql master at 99₹
+              Become Sql master at <strong>99₹</strong>
             </a>
           </div>
         </section>
@@ -156,7 +157,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <p>Join our 5-Day SQL Bootcamp for just <span>₹99</span> and gain hands-on experience, solve real-world
+          <p>Join our 5-Day SQL Bootcamp for just <span style={{ color: "red" }}><strong>₹99</strong></span> and gain hands-on experience, solve real-world
             problems, and earn a
             certificate to boost your career.</p>
           <a className="btn" href="https://rzp.io/rzp/Y1T0Ab2C"> ENROLL NOW</a>
